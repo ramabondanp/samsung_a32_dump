@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ev2lux_map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" table_ver="20201221" target_device="A32_LTE">
+	<item>
+		<exposure>2015862</exposure>
+		<brightness>-1300</brightness>
+		<lux>0</lux>
+	</item>
+	<item>
+		<exposure>2015862</exposure>
+		<brightness>-500</brightness>
+		<lux>8</lux>
+	</item>
+	<item>
+		<exposure>2015862</exposure>
+		<brightness>100</brightness>
+		<lux>15</lux>
+	</item>
+	<item>
+		<exposure>2015862</exposure>
+		<brightness>2015862</brightness>
+		<lux>30</lux>
+	</item>?
+</ev2lux_map>
