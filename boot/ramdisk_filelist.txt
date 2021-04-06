@@ -1,0 +1,10 @@
+{"name":"debug_ramdisk","statMode":16877,"ino":300000,"note":"DIR  40755"}
+{"name":"dev","statMode":16877,"ino":300001,"note":"DIR  40755"}
+{"name":"dpolicy","statMode":33188,"ino":300002,"note":"REG 100644"}
+{"name":"fstab.mt6768","statMode":33184,"ino":300003,"note":"REG 100640"}
+{"name":"fstab.mt6769t","statMode":33184,"ino":300004,"note":"REG 100640"}
+{"name":"init","statMode":33256,"ino":300005,"note":"REG 100750"}
+{"name":"mnt","statMode":16877,"ino":300006,"note":"DIR  40755"}
+{"name":"proc","statMode":16877,"ino":300007,"note":"DIR  40755"}
+{"name":"sys","statMode":16877,"ino":300008,"note":"DIR  40755"}
+{"name":"TRAILER!!!","statMode":493,"ino":0,"note":""}

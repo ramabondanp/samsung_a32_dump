@@ -1,0 +1,38 @@
+{
+  "info" : {
+    "output" : "boot.img",
+    "json" : "boot.json",
+    "headerVersion" : 2,
+    "headerSize" : 1660,
+    "loadBase" : 0,
+    "tagsOffset" : 1271398400,
+    "board" : "SRPTL10A001",
+    "pageSize" : 2048,
+    "cmdline" : "bootopt=64S3,32N2,64N2",
+    "osVersion" : "11.0.0",
+    "osPatchLevel" : "2021-02-00",
+    "hash" : "1/gelSxaHOUqBJbw1e1ZaafIqBEAAAAAAAAAAAAAAAA=",
+    "verify" : "VB2.0",
+    "imageSize" : 33554432
+  },
+  "kernel" : {
+    "file" : "build/unzip_boot/kernel",
+    "position" : 2048,
+    "size" : 15300221,
+    "loadOffset" : 1074266112
+  },
+  "ramdisk" : {
+    "file" : "build/unzip_boot/ramdisk.img.gz",
+    "position" : 15302656,
+    "size" : 792851,
+    "loadOffset" : 1204289536
+  },
+  "secondBootloader" : null,
+  "recoveryDtbo" : null,
+  "dtb" : {
+    "file" : "build/unzip_boot/dtb",
+    "position" : 16097280,
+    "size" : 98095,
+    "loadOffset" : 1271398400
+  }
+}
