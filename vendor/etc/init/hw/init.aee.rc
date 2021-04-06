@@ -1,0 +1,11 @@
+on post-fs-data
+
+    mkdir /data/vendor/aee_exp 0775 system system
+    mkdir /data/vendor/dumpsys 0775 system system
+    mkdir /data/vendor/core 0775 system system
+    mkdir /data/vendor/tombstones 0775 system system
+
+on post-fs
+    chmod 0666 /dev/aed0
+    start aee_aedv
+#    start aee_aedv64

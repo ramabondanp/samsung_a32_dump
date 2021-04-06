@@ -1,0 +1,62 @@
+{
+  "Attributes": [
+    {
+      "Name": "GpisSfCpuset",
+      "Controller": "cpuset",
+      "File": "cpus"
+    }
+  ],
+
+  "Profiles": [
+        {
+      "Name": "GpisSfCpusetJoin",
+      "Actions" : [
+        {
+          "Name" : "JoinCgroup",
+          "Params" :
+          {
+            "Controller": "cpuset",
+            "Path": "sf"
+          }
+        }
+      ]
+    },
+    {
+      "Name": "GpisSfCpusetEnable",
+      "Actions": [
+        {
+          "Name": "SetAttribute",
+          "Params":
+          {
+            "Name": "GpisSfCpuset",
+            "Value": "6-7"
+          }
+        }
+      ]
+    },
+    {
+      "Name": "GpisSfCpusetDisable",
+      "Actions": [
+        {
+          "Name": "SetAttribute",
+          "Params":
+          {
+            "Name": "GpisSfCpuset",
+            "Value": "0-7"
+          }
+        }
+      ]
+    }
+  ],
+
+  "AggregateProfiles": [
+    {
+      "Name": "GPIS_HINT_ENABLE",
+      "Profiles": [ "GpisSfCpusetEnable" ]
+    },
+    {
+      "Name": "GPIS_HINT_DISABLE",
+      "Profiles": [ "GpisSfCpusetDisable" ]
+    }
+  ]
+}
